@@ -1,0 +1,412 @@
+
+/*GLOBAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*PERGUNTA 1*/
+.App{
+  background-image: url('./img/background_iChei.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#question {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 36%;
+  padding-left: 57px;
+  padding-top: 64px;
+  padding-right: 57px;
+  padding-bottom: 103px;
+}
+
+#question_1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 26pt;
+}
+
+#component_p1 {
+  padding-top: 14%;
+  display: flex;
+  padding-bottom: 10%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#next {
+  font-family: "Raleway", sans-serif;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 36pt;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 100px;
+}
+
+/*PERGUNTA 2*/
+#component_p2 {
+  padding-top: 15%;
+  display: flex;
+  padding-bottom: 17.2%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#component_name_email {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 36%;
+  padding-left: 57px;
+  padding-top: 90px;
+  padding-right: 57px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+input#name {
+  font-family: Raleway;
+  font-size: 19pt;
+  padding: 15px;
+  width: 100%;
+}
+
+input#email {
+  font-family: Raleway;
+  font-size: 19pt;
+  padding: 15px;
+  width: 100%;
+}
+
+/*PERGUNTA 3*/
+
+#component_p3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+}
+
+#questions_content {
+  display: flex;
+  flex-direction: column;
+}
+
+#question_3 {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 38%;
+  padding-left: 57px;
+  padding-top: 65px;
+  padding-right: 62px;
+  padding-bottom: 65px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+}
+
+select#objeto {
+  width: 35%;
+  padding: 7px;
+  font-family: Raleway;
+  font-size: 14pt;
+}
+
+label#color_text {
+  font-family: Raleway;
+  font-size: 18pt;
+}
+
+input#color {
+  border: none;
+}
+
+input#marca {
+  width: 35%;
+  padding: 7px;
+  font-family: Raleway;
+  font-size: 14pt;
+}
+
+label#question_3_2_sub {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 36%;
+  padding-left: 57px;
+  padding-top: 39px;
+  padding-right: 62px;
+  padding-bottom: 39px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+}
+
+input#detalhe {
+  width: 53%;
+  font-family: Raleway;
+  font-size: 15pt;
+  height: 222px;
+}
+#questions_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+#component_p3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 55px;
+  align-items: center;
+}
+label#color_text {
+  font-family: Raleway;
+  font-size: 18pt;
+  background-color: white;
+  padding: 13px;
+}
+div#question_3_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+  gap: 28px;
+  margin-bottom: 70px;
+}
+
+input#detalhe {
+  width: 37%;
+  font-family: Raleway;
+  font-size: 15pt;
+  height: 162px;
+}
+
+#next {
+  font-family: "Raleway", sans-serif;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 36pt;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 100px;
+  height: 91px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*PERGUNTA 4*/
+
+div#component_p4 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+div#question_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+label#question_4_sub {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 98%;
+  padding-left: 57px;
+  padding-top: 39px;
+  padding-right: 62px;
+  padding-bottom: 39px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40pt;
+}
+
+input#start {
+  width: 31%;
+  font-family: Raleway;
+  font-size: 21pt;
+}
+div#component_p4 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20%;
+  padding-bottom: 15.8%;
+  align-items: center;
+}
+
+
+
+/*PERGUNTA 5*/
+
+div#component_p5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div#question_5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+label#question_5_sub {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 98%;
+  padding-left: 57px;
+  padding-top: 39px;
+  padding-right: 62px;
+  padding-bottom: 39px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40pt;
+}
+
+select#local {
+  width: 31%;
+  font-family: Raleway;
+  font-size: 21pt;
+}
+div#component_p5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 18%;
+  padding-bottom: 17.9%;
+}
+
+
+/*CONFIRMAÇÃO DOS DADOS*/
+
+div#component_confirm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div#confirm {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 30%;
+  padding-left: 57px;
+  padding-top: 39px;
+  padding-right: 62px;
+  padding-bottom: 39px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+}
+div#component_confirm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20%;
+  padding-bottom: 24.1%;
+}
+
+
+/*MENSAGEM DE SUCESSO*/
+div#sucess {
+  display: flex;
+  flex-direction: column;
+}
+
+label#sucess_sub {
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  padding-bottom: 100px;
+  width: 30%;
+  padding-left: 57px;
+  padding-top: 52px;
+  padding-right: 63px;
+  padding-bottom: 52px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+}
+button#cartaz {
+  font-family: "Raleway", sans-serif;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 20px 18px;
+  border-radius: 100px;
+  height: 91px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+div#sucess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+button#bMenu {
+  font-family: "Raleway", sans-serif;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 17pt;
+  font-weight: bold;
+  padding: 21px 18px;
+  border-radius: 100px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+}
+div#component_sucess {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 13%;
+  padding-bottom: 9.6%;
+  padding-right: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
